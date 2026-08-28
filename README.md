@@ -35,6 +35,9 @@ Verified using ModelSim / QuestaSim across 3 main testbench scenarios:
 * **Scenario 1:** Normal Transmission with **Even Parity**.
 * **Scenario 2:** Transmission with **Odd Parity** checking.
 * **Scenario 3:** Back-to-Back transmissions & Handshake (`busy` flag) response.
+* ### Unit Verification (Sub-Modules)
+- `serializer_tb.v`: Validates parallel load and sequential bit shifting logic.
+- `fsm_tb.v`: Tests state transitions, timing accuracy, and control signals.
 
 ---
 
